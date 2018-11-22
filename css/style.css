@@ -1,0 +1,16 @@
+.controles {
+    border: 1px solid gray;
+    position: absolute;
+    width: 150px;
+    height: 640px;
+    padding: 5px;
+}
+
+.canvas {
+    position: absolute;
+    left: 180px;
+}
+
+input {margin-bottom: 5px; width: 120px}
+
+select {margin-bottom: 5px}

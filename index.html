@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Electric Field</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="controles">
+  <h4>Set charge properties</h4>
+  <input type="text" id="magnitud" placeholder="Magnitud ( + o - )">
+  <input type="text" id="radio" placeholder="Radio q (4 a 100 px)">
+  <br>
+  <h4>Distribuciones</h4>
+  <select id="distSelect">
+    <option value="puntual">Puntual</option>
+    <option value="circular">Circular</option>
+    <option value="linealVert">Lineal Vertical</option>
+    <option value="linealHoriz">Lineal Horizontal</option>
+  </select>
+  <input type="text" id="nCargas" placeholder="Numero de Cargas" disabled>
+  <input type="text" id="rCirc" placeholder="Radio circ. (4 a 100 px)" disabled>
+  <input type="text" id="largo" placeholder="Largo (4 a 100 px)" disabled>
+  <hr>
+  <p>Click on canvas to show the Electric field</p>
+  <p><em>F5</em> to start again</em></p>
+</div>
+<div class="canvas">
+  <canvas width="1150" height="650"></canvas>
+</div>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
